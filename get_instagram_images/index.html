@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="main-container">
+
+    </div>
+    <style>
+        .main-container{
+            display: flex;
+            flex-wrap: wrap;
+            gap: .5rem
+        }
+
+        li{
+            list-style: none;
+        }
+
+        img{
+            width: 200px;
+            height: 200px;
+            object-fit: cover;
+        }
+    </style>
+    <script>
+        async function newRequest () {
+            try {
+                const response = await fetch('./myInstagram.json');
+                const data = await response.json();
+                const htmlList = data.map(img => `<li><img src="${img.src}"></li>`).join('')
+                document.querySelector('.main-container').innerHTML = htmlList
+            } catch (error) {
+                console.log(error)
+            }
+        }
+
+        newRequest()
+    </script>
+</body>
+</html>
