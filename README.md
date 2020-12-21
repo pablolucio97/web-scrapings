@@ -1,7 +1,7 @@
 
-## :wrench: Descrição
+## :pencil: Descrição
 
-### Este repositório armazena alguns exemplos de web-scrapping.
+### Este repositório armazena alguns exemplos de web-scraping.
 
 <p align="center">
   <img alt="APM" src="https://img.shields.io/apm/l/vim-mode"> <img alt="PyPI - Status" src="https://img.shields.io/pypi/status/Django">
