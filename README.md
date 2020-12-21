@@ -3,11 +3,6 @@
 
 ### Este repositório armazena alguns exemplos de web-scraping.
 
-<p align="center">
-  <img alt="APM" src="https://img.shields.io/apm/l/vim-mode"> <img alt="PyPI - Status" src="https://img.shields.io/pypi/status/Django">
-</p>
-
-
 ## :rocket: Tecnologias utilizadas:
 
 * [Javascript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
@@ -21,5 +16,10 @@
 
 ### 2) Navegue até a pasta api e execute os seguintes comandos:
  npm install
+
+
+<p align="center">
+  <img alt="APM" src="https://img.shields.io/apm/l/vim-mode"> <img alt="PyPI - Status" src="https://img.shields.io/pypi/status/Django">
+</p>
 
 
